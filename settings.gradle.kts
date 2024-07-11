@@ -104,3 +104,7 @@ includeProject(
 includeProject(":ci-helper", "ci-helper") // 
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
+//fix a bug of frozen on Windows
+include(":lib-directories")
+ 

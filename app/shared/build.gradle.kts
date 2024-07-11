@@ -108,7 +108,7 @@ kotlin {
 
         // Others
         api(libs.koin.core) // dependency injection
-        api(libs.directories) // Data directories on all OSes
+        api(project(":lib-directories")) // Data directories on all OSes
         api(libs.coil.core) // Image loading
         api(libs.coil.svg) // Image loading
         api(libs.coil.compose.core) // Image loading
